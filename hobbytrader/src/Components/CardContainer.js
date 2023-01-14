@@ -5,7 +5,7 @@ const CardContainer = () => {
   return (
     <div>
       <Card 
-        image="image-url" 
+        image="logo192.png" 
         title="Card Title" 
         text="Card Description" 
         btn="Go somewhere"

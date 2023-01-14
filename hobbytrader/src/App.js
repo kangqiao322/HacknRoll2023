@@ -4,7 +4,7 @@ import LoginPage from './Pages/login';
 import Home from './Pages/home';
 import RegisterPage from './Pages/regsiter';
 
-function App() {
+const App = () => {
   return (
     <Router>
     <Routes>

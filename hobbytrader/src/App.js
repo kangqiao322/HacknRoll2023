@@ -1,5 +1,6 @@
 import React from 'react';
 import CardContainer from './Components/CardContainer';
+import Home from "./Pages/Home";
 
 const App = () => {
   return (

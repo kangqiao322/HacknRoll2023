@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
@@ -34,6 +35,23 @@ const Home = () => {
             </footer>
         </div>
     );
+=======
+import React from 'react';
+import CardContainer from '../Components/CardContainer';
+import './home.css'
+
+function Home() {
+  return (
+    <div className="home-page">
+    <h1>Welcome to Hobby Trader!</h1>
+      <div className="card-container-wrapper">
+        <CardContainer />
+        <CardContainer />
+        <CardContainer />
+      </div>
+    </div>
+  );
+>>>>>>> bacab73b856e4a8cab494415a323a41b44e1ea5e
 }
 
 export default Home;

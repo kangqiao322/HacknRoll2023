@@ -1,14 +1,18 @@
-import React from 'react';
-import CardContainer from './Components/CardContainer';
+import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom';
+import LoginPage from './Pages/login';
+import Home from './Pages/home';
+import RegisterPage from './Pages/regsiter';
 
 const App = () => {
   return (
-    <div>
-      <h1>Welcome to my website</h1>
-      <CardContainer />
-      <CardContainer />
-      <CardContainer />
-    </div>
+    <Router>
+    <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/login' element={<LoginPage />} />
+        <Route path='/register' element={<RegisterPage/>} />
+    </Routes>
+    </Router>
   );
 }
 

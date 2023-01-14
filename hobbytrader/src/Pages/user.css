@@ -1,0 +1,54 @@
+.user-profile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .user-avatar {
+    position: relative;
+    transform: translateY(-550px);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .user-info {
+    width: 100%;
+  }
+  
+  .user-info h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .user-info p {
+    line-height: 1.5;
+    font-size: 1.2em;
+  }
+  
+  .user-input, .user-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+
+  .inventory {
+    font-size: 5em;
+    transform: translate(500px);
+  }
+
+  
+.listings-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.listing-card {
+    width: 30%;
+    margin: 1%;
+    padding: 1%;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
